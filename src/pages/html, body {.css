@@ -1,0 +1,72 @@
+html, body {
+                    margin: 0;
+                    padding: 0;
+                    font-family: 'Audiowide', cursive;
+                    width: 100%;
+                    height: 100%;
+                    overflow-x: hidden;
+                }
+
+                h1 {
+                    text-align: center;
+                    margin: 30px 0 10px;
+                }
+                
+                .container{
+                    padding-top: 50%;
+                    background-color: #2c52b3;
+                    color: #ffffff;
+                }
+
+                .grid-container {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr); /* 4 kolom */
+                    gap: 20px;
+                    padding: 20px;
+                }
+
+                .glass-box {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    border: 2px solid rgba(255,255,255,0.2);
+                    border-radius: 15px;
+                    padding: 20px;
+                    background: rgba(255, 255, 255, 0.05);
+                    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+                    transition: transform 0.2s ease-in-out;
+                    cursor: pointer;
+                }
+
+                .glass-box:hover {
+                    transform: scale(1.05);
+                }
+
+                .glass-box img {
+                    max-width: 80px;
+                    margin-bottom: 10px;
+                }
+
+                .glass-box-label p {
+                    font-size: 14px;
+                    text-align: center;
+                    margin: 0;
+                }
+
+                /* Responsif: hp jadi 2 kolom, layar kecil jadi 1 */
+                @media (max-width: 1024px) {
+                    .grid-container {
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+                }
+
+                @media (max-width: 600px) {
+                    .grid-container {
+                        grid-template-columns: 1fr;
+                    }
+                    
+                    .container{
+                        padding-top: 610%;
+                    }
+                }
