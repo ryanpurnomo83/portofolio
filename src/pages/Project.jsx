@@ -194,7 +194,31 @@ function Project(){
         </div>
       </div>
 
-      {/* Lanjutkan dengan section lainnya... */}
+      <h2 style={{color: "#ffffff", marginTop: "40px"}}>IOT App Projects</h2>
+      <div className="grid-container">
+        <div className="glass-box">
+        <img src={MbbImage} alt="Nutriducation"/>
+          <div className="glass-box-label">
+            <p style={{ margin: 0 }}>
+              <span className="code">&lt;</span>
+                Monitoring BBM (Laravel)
+              <span className="code">&#47;&gt;</span>
+            </p>
+          </div>
+        </div>
+        <div className="glass-box">
+          <img src={CardiOCareImage} alt="Nutriducation"/>
+          <div className="glass-box-label">
+            <p style={{ margin: 0 }}>
+              <span className="code">&lt;</span>
+                CardiOCare (HPJ Native + Tailwind)
+              <span className="code">&#47;&gt;</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
     </div>
   </>
   );
