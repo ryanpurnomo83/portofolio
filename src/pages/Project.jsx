@@ -29,7 +29,6 @@ function Project(){
           .container {
             position: absolute;
             top: 50%;
-            left: 50%;
             padding-top: 130%;
             padding-right: 15%;
             padding-left: 17%;
