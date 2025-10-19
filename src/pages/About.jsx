@@ -20,12 +20,20 @@ function About(){
                     margin: 30px 0 10px;
                 }
                 
-                .container{
+                .container {
                     position: absolute;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
-                    padding-top: 58%;                    
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    height: auto;
+                    align-items: center;
+                    padding-top: 45%;
+                    box-sizing: border-box;
+                    justify-content: center;
+                    background-color: #2c52b3;
                 }
 
                 .grid-container {
