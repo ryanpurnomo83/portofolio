@@ -133,7 +133,7 @@ function Project(){
             }
 
             .container{
-              padding-top: 5%;
+              padding-top: 15%;
               padding-right: 36%;
               padding-left: 0%;
             }
