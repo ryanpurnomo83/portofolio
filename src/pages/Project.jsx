@@ -1,3 +1,11 @@
+import RechefImage from '../../public/Rechef-Image-Portofolio.png';
+import MbbImage from '../../public/MBB-Image-Portofolio.png';
+import NutriducationImage from '../../public/Nutriducation-Image-Portofolio.png';
+import CardiOCareImage from '../../public/CardiOCare-Image-Portofolio.png';
+import KRBAIImage from '../../public/KRBAI-Image-Portofolio.png';
+import AKMImage from '../../public/AKM-Image-Portofolio.png';
+import Navbar from '../components/Navbar.jsx';
+
 function Project(){
   return(
   <>
@@ -191,3 +199,4 @@ function Project(){
   </>
   );
 }
+export default Project;
