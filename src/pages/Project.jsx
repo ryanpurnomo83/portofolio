@@ -27,11 +27,12 @@ function Project(){
           }
 
           .project-section{
-            padding-top: 1600px !important;
+            padding-top: 1570px !important;
             position: relative !important;
           }
 
           .container {
+            padding-top: 20%;
             padding-right: 15%;
             padding-left: 17%;
             background-color: #2c52b3;
