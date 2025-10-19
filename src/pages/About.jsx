@@ -33,7 +33,6 @@ function About(){
                     padding-top: 45%;
                     box-sizing: border-box;
                     justify-content: center;
-                    background-color: #2c52b3;
                 }
 
                 .grid-container {
@@ -85,7 +84,7 @@ function About(){
                     }
                     
                     .container{
-                        padding-top: 900%;
+                        padding-top: 500%;
                     }
                 }
             `}
