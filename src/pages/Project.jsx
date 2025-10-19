@@ -129,11 +129,11 @@ function Project(){
             }
 
             .project-section{
-              padding-top: 1350px !important;
+              padding-top: 1550px !important;
             }
 
             .container{
-              padding-top: 35%;
+              padding-top: 25%;
               padding-right: 36%;
               padding-left: 0%;
             }
