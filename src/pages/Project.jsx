@@ -35,13 +35,16 @@ function Project(){
             padding-right: 15%;
             padding-left: 17%;
             background-color: #2c52b3;
+            min-height: 100vh;
           }
           
           .grid-container{
             display: grid;
             grid-template-columns: repeat(4, 1fr); /* 4 kolom */
-            gap: 50px;
+            gap: 20px;
             padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
           }
 
           .glass-box {
