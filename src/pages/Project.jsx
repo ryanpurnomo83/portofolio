@@ -27,12 +27,10 @@ function Project(){
           }
 
           .container {
-            margin-top: 1000px;
+            padding-top: 130%;
             padding-right: 15%;
             padding-left: 17%;
-            min-height: calc(100vh - 80px);
             background-color: #2c52b3;
-            box-sizing: border-box;
           }
           
           .grid-container{
@@ -123,7 +121,7 @@ function Project(){
             }
 
             .container{
-              padding-top: 750%;
+              padding-top: 1500px !important;
               padding-right: 36%;
               padding-left: 0%;
             }
@@ -256,21 +254,6 @@ function Project(){
                 <span className="code">&#47;&gt;</span>
               </p>
             </div>
-        </div>
-      </div>
-      
-      <br/>
-
-      <h2 style={{color: "#ffffff"}}>Game Projects</h2>
-      <div className="grid-container">
-        <div className="glass-box">
-          <div className="glass-box-label">
-            <p style={{ margin: 0 }}>
-              <span className="code">&lt;</span>
-                Cube Dash Games (Unity, C#)
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </div>
         </div>
       </div>
       
