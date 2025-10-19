@@ -122,9 +122,12 @@ function Project(){
       padding: 15px 0;
     }
     
-    .container {
+    .project-section{
+      padding-top: 300px !important;
+    }
 
-      padding-top: 600px !important; /* Sesuaikan untuk mobile */
+    .container {
+     /* Sesuaikan untuk mobile */
       padding-left: 15px;
       padding-right: 15px;
     }
