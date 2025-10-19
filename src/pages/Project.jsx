@@ -32,7 +32,7 @@ function Project(){
           }
 
           .container {
-            padding-top: 20%;
+            padding-top: 5%;
             padding-right: 15%;
             padding-left: 17%;
             background-color: #2c52b3;
