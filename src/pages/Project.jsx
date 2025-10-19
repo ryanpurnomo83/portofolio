@@ -19,9 +19,14 @@ function Project(){
     height: 100%;
     overflow-x: hidden;
   }
+  
+  .project-section{
+    padding-top: 180px !important;
+    position: relative !important;
+  }
 
   .container {
-    padding-top: 180px !important; /* Jarak dari navbar fixed */
+     /* Jarak dari navbar fixed */
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 40px;
@@ -118,6 +123,7 @@ function Project(){
     }
     
     .container {
+
       padding-top: 600px !important; /* Sesuaikan untuk mobile */
       padding-left: 15px;
       padding-right: 15px;
@@ -138,6 +144,7 @@ function Project(){
 </style>
     
     <Navbar />
+    <div className="project-section">
     <div className="container">
       <h2 style={{color: "#ffffff", marginTop: "20px"}}>Web App Projects</h2>
       <div className="grid-container">
@@ -219,6 +226,7 @@ function Project(){
       </div>
 
       
+    </div>
     </div>
   </>
   );
