@@ -27,10 +27,11 @@ function Project(){
           }
 
           .container {
-            padding-top: 130%;
-            padding-right: 15%;
-            padding-left: 17%;
+            margin-top: 80px;
+            padding: 0 5% 20px;
+            min-height: calc(100vh - 80px);
             background-color: #2c52b3;
+            box-sizing: border-box;
           }
           
           .grid-container{
