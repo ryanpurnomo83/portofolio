@@ -21,6 +21,7 @@ function About(){
                 }
                 
                 .container{
+                    position: absolute;
                     padding-top: 58%;                    
                 }
 
