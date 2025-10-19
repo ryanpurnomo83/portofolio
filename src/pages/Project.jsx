@@ -53,7 +53,8 @@ function Project(){
             align-items: center;
             justify-content: center;
             border-radius: 15px;
-            width: 100%;
+            width: 220%;
+            max-width: 360px;
             height: 200px;
             background: linear-gradient(
               135deg,
