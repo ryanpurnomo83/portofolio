@@ -39,10 +39,14 @@ function Main() {
           }
 
           .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             display: flex;
             flex-direction: column;
             width: 100%;
-            height: 150vh;
+            height: auto;
             align-items: center;
             padding-top: 45%;
             box-sizing: border-box;
