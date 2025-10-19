@@ -12,18 +12,8 @@ function Project(){
     overflow-x: hidden;
   }
 
-  /* PASTIKAN NAVBAR FIXED */
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 70px;
-    z-index: 1000;
-    background: your-navbar-color; /* tambahkan background */
-  }
-
   .container {
-    padding-top: 140px !important; /* Jarak dari navbar fixed */
+    padding-top: 180px !important; /* Jarak dari navbar fixed */
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 40px;
@@ -120,7 +110,7 @@ function Project(){
     }
     
     .container {
-      padding-top: 140px !important; /* Sesuaikan untuk mobile */
+      padding-top: 190px !important; /* Sesuaikan untuk mobile */
       padding-left: 15px;
       padding-right: 15px;
     }
