@@ -118,7 +118,7 @@ function Project(){
     }
     
     .container {
-      padding-top: 300px; /* Sesuaikan untuk mobile */
+      padding-top: 600px !important; /* Sesuaikan untuk mobile */
       padding-left: 15px;
       padding-right: 15px;
     }
