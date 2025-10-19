@@ -27,18 +27,9 @@ function Project(){
           }
 
           .container {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: auto;
-            align-items: center;
-            padding-top: 45%;
-            box-sizing: border-box;
-            justify-content: center;
+            padding-top: 130%;
+            padding-right: 15%;
+            padding-left: 17%;
             background-color: #2c52b3;
           }
           
