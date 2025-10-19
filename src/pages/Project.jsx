@@ -27,7 +27,7 @@ function Project(){
           }
 
           .container {
-            margin-top: 550px;
+            margin-top: 1000px;
             padding-right: 15%;
             padding-left: 17%;
             min-height: calc(100vh - 80px);
