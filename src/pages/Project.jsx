@@ -27,8 +27,9 @@ function Project(){
           }
 
           .container {
-            margin-top: 80px;
-            padding: 0 5% 20px;
+            margin-top: 550px;
+            padding-right: 15%;
+            padding-left: 17%;
             min-height: calc(100vh - 80px);
             background-color: #2c52b3;
             box-sizing: border-box;
