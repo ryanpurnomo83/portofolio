@@ -296,6 +296,21 @@ function Project(){
       </div>
         
         <br/>
+
+        <h2 style={{color: "#ffffff"}}>Game Projects</h2>
+      <div className="grid-container">
+        <div className="glass-box">
+          <div className="glass-box-label">
+            <p style={{ margin: 0 }}>
+              <span className="code">&lt;</span>
+                Cube Dash Games (Unity, C#)
+              <span className="code">&#47;&gt;</span>
+            </p>
+          </div>
+        </div>
+      </div>
+        
+        <br/>
       </div>
       </div>
     </>
