@@ -23,7 +23,7 @@ function Project(){
   }
 
   .container {
-    padding-top: 80px; /* Jarak dari navbar fixed */
+    padding-top: 140px !important; /* Jarak dari navbar fixed */
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 40px;
