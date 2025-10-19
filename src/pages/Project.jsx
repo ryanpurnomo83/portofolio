@@ -120,14 +120,14 @@ function Project(){
     }
     
     .container {
-      padding-top: 70px; /* Sesuaikan untuk mobile */
+      padding-top: 140px !important; /* Sesuaikan untuk mobile */
       padding-left: 15px;
       padding-right: 15px;
     }
     
     .glass-box {
       width: 100%; /* UBAH dari 160% menjadi 100% */
-      height: 180px;
+      height: 150px;
     }
     
     .glass-box-label p {
