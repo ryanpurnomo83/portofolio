@@ -129,7 +129,7 @@ function Project(){
             }
 
             .project-section{
-              padding-top: 2150px !important;
+              padding-top: 1950px !important;
             }
 
             .container{
