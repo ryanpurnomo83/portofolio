@@ -84,7 +84,7 @@ function About(){
                     }
                     
                     .container{
-                        padding-top: 500%;
+                        padding-top: 700%;
                     }
                 }
             `}
