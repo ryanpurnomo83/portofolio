@@ -121,7 +121,7 @@ function Project(){
             }
 
             .container{
-              padding-top: 550%;
+              padding-top: 750%;
               padding-right: 36%;
               padding-left: 0%;
             }
