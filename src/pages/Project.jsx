@@ -27,7 +27,7 @@ function Project(){
           }
 
           .project-section{
-            padding-top: 1250px !important;
+            padding-top: 1550px !important;
             position: relative !important;
           }
 
