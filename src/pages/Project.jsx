@@ -30,7 +30,7 @@ function Project(){
 
           .section {
             min-height: 120vh;
-            padding: 24px 0;
+            padding: 22px 0;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -118,7 +118,7 @@ function Project(){
               }
 
             .container{
-              padding-top: 500%;
+              padding-top: 15%;
               padding-right: 36%;
               padding-left: 0%;
             }
