@@ -12,12 +12,14 @@ function Project(){
     <style>
         {`
           html, body {
+            font-family: 'Audiowide', cursive;
+            overflow-x: hidden;
+          }
+
+          .Project {* {
             margin: 0;
             padding: 0;
-            font-family: 'Audiowide', cursive;
-            width: 100%;
-            height: 100%;
-            overflow-x: hidden;
+            box-sizing: border-box;
           }
 
           h1 {
@@ -26,13 +28,16 @@ function Project(){
             font-size: clamp(24px, 5vw, 40px); /* responsif */
           }
 
-          .project-section{
-            padding-top: 1570px !important;
-            position: relative !important;
+          .section {
+            min-height: 120vh;
+            padding: 25px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
           }
 
           .container {
-            padding-top: 10%;
+            padding-top: 4%;
             padding-right: 15%;
             padding-left: 17%;
             background-color: #2c52b3;
@@ -133,7 +138,7 @@ function Project(){
             }
 
             .container{
-              padding-top: 35%;
+              padding-top: 9%;
               padding-right: 36%;
               padding-left: 0%;
             }
@@ -151,144 +156,145 @@ function Project(){
         `}
       </style>
 
-    <Navbar />
-    <div className="project-section">
-    <div className="container">
-      <h2 style={{color: "#ffffff"}}>Web App Projects</h2>
-      <div className="grid-container">
-        <div className="glass-box">
-          <div className="glass-box-label">
-            <p style={{ margin: 0 }}>
-              <span className="code">&lt;</span>
-                CG Games (React)
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </div>
-        </div>
-        <br/>
-        <div className="glass-box" onClick={() => (window.location.href="https://github.com/Rechef-Team/rechef-web")}>
-          <img src={RechefImage} alt="Rechef"/>
-          <div className="glass-box-label">
-            <p style={{ margin: 0 }}>
-              <span className="code">&lt;</span>
-                Rechef (Django)
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <h2 style={{color: "#ffffff"}}>Mobile App Projects</h2>
-      <div className="grid-container">
-        <div className="glass-box">
-          <div className="glass-box-label">
-            <p style={{ margin: 0 }}>
-              <span className="code">&lt;</span>
-                LokaLingua (Flutter)
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </div>
-        </div>
-        <br/>
-        <div className="glass-box">
-          <img src={NutriducationImage} alt="Rechef"/>
-          <div className="glass-box-label">
-            <p style={{ margin: 0 }}>
-              <span className="code">&lt;</span>
-                Nutriducation (Flutter, Laravel)
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </div>
-        </div>
-        <br/>
-        <br/>
-         <div className="glass-box">
-          <img/>
-          <div className="glass-box-label">
-            <p style={{ margin: 0 }}>
-              <span className="code">&lt;</span>
-                Livin Mandiri (Kotlin)
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </div>
-        </div>
-      </div>
-        <br/>
-
-        <h2 style={{color: "#ffffff"}}>IOT App Projects</h2>
-      <div className="grid-container">
-        <div className="glass-box">
-          <img src={MbbImage} alt="MBB"/>
-          <div className="glass-box-label">
-            <p style={{ margin: 0 }}>
-              <span className="code">&lt;</span>
-                Monitoring BBM (Laravel)
-              <span className="code">&#47;&gt;</span>
-            </p>
-          </div>
-        </div>
-        <br/>
-        <div className="glass-box" onClick={() => (window.location.href="https://cardiocare.my.id/")}>
-          <img src={CardiOCareImage} alt="Rechef"/>
-            <div className="glass-box-label">
-              <p style={{ margin: 0 }}>
-                <span className="code">&lt;</span>
-                  CardiOCare (HPJ Native + Tailwind)
-                <span className="code">&#47;&gt;</span>
-              </p>
-            </div>
-        </div>
-      </div>
-
-        <br/>
-
-      <h2 style={{color: "#ffffff"}}>Robotic Projects</h2>
-      <div className="grid-container">
-        <div className="glass-box">
-            <img src={KRBAIImage} alt="Rechef"/>
+    <div className="Project">
+      <Navbar />
+        <section className="section">
+        <div className="container">
+          <h2 style={{color: "#ffffff"}}>Web App Projects</h2>
+          <div className="grid-container">
+            <div className="glass-box">
               <div className="glass-box-label">
                 <p style={{ margin: 0 }}>
                   <span className="code">&lt;</span>
-                    DN-Aqua (Python, C++)
+                    CG Games (React)
                   <span className="code">&#47;&gt;</span>
                 </p>
               </div>
-        </div>
-      </div>
-        <br/>
-      <h2 style={{color: "#ffffff"}}>UI/UX Projects</h2>
-      <div className="grid-container">
-        <div className="glass-box">
-          <img src={AKMImage} alt="Rechef"/>
-            <div className="glass-box-label">
-              <p style={{ margin: 0 }}>
-                <span className="code">&lt;</span>
-                  Anjungan Kesehatan Mandiri (Figma)
-                <span className="code">&#47;&gt;</span>
-              </p>
             </div>
-        </div>
-      </div>
-      
-      <br/>
-
-      <h2 style={{color: "#ffffff"}}>Game Projects</h2>
-      <div className="grid-container">
-        <div className="glass-box">
-          <div className="glass-box-label">
-            <p style={{ margin: 0 }}>
-              <span className="code">&lt;</span>
-                Cube Dash Games (Unity, C#)
-              <span className="code">&#47;&gt;</span>
-            </p>
+            <br/>
+            <div className="glass-box" onClick={() => (window.location.href="https://github.com/Rechef-Team/rechef-web")}>
+              <img src={RechefImage} alt="Rechef"/>
+              <div className="glass-box-label">
+                <p style={{ margin: 0 }}>
+                  <span className="code">&lt;</span>
+                    Rechef (Django)
+                  <span className="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      
-      <br/>
 
-      </div>
-      </div>
+          <h2 style={{color: "#ffffff"}}>Mobile App Projects</h2>
+          <div className="grid-container">
+            <div className="glass-box">
+              <div className="glass-box-label">
+                <p style={{ margin: 0 }}>
+                  <span className="code">&lt;</span>
+                    LokaLingua (Flutter)
+                  <span className="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </div>
+            <br/>
+            <div className="glass-box">
+              <img src={NutriducationImage} alt="Rechef"/>
+              <div className="glass-box-label">
+                <p style={{ margin: 0 }}>
+                  <span className="code">&lt;</span>
+                    Nutriducation (Flutter, Laravel)
+                  <span className="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </div>
+            <br/>
+            <br/>
+            <div className="glass-box">
+              <img/>
+              <div className="glass-box-label">
+                <p style={{ margin: 0 }}>
+                  <span className="code">&lt;</span>
+                    Livin Mandiri (Kotlin)
+                  <span className="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </div>
+          </div>
+            <br/>
+
+            <h2 style={{color: "#ffffff"}}>IOT App Projects</h2>
+          <div className="grid-container">
+            <div className="glass-box">
+              <img src={MbbImage} alt="MBB"/>
+              <div className="glass-box-label">
+                <p style={{ margin: 0 }}>
+                  <span className="code">&lt;</span>
+                    Monitoring BBM (Laravel)
+                  <span className="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </div>
+            <br/>
+            <div className="glass-box" onClick={() => (window.location.href="https://cardiocare.my.id/")}>
+              <img src={CardiOCareImage} alt="Rechef"/>
+                <div className="glass-box-label">
+                  <p style={{ margin: 0 }}>
+                    <span className="code">&lt;</span>
+                      CardiOCare (HPJ Native + Tailwind)
+                    <span className="code">&#47;&gt;</span>
+                  </p>
+                </div>
+            </div>
+          </div>
+
+            <br/>
+
+          <h2 style={{color: "#ffffff"}}>Robotic Projects</h2>
+          <div className="grid-container">
+            <div className="glass-box">
+                <img src={KRBAIImage} alt="Rechef"/>
+                  <div className="glass-box-label">
+                    <p style={{ margin: 0 }}>
+                      <span className="code">&lt;</span>
+                        DN-Aqua (Python, C++)
+                      <span className="code">&#47;&gt;</span>
+                    </p>
+                  </div>
+            </div>
+          </div>
+            <br/>
+          <h2 style={{color: "#ffffff"}}>UI/UX Projects</h2>
+          <div className="grid-container">
+            <div className="glass-box">
+              <img src={AKMImage} alt="Rechef"/>
+                <div className="glass-box-label">
+                  <p style={{ margin: 0 }}>
+                    <span className="code">&lt;</span>
+                      Anjungan Kesehatan Mandiri (Figma)
+                    <span className="code">&#47;&gt;</span>
+                  </p>
+                </div>
+            </div>
+          </div>
+          
+          <br/>
+
+          <h2 style={{color: "#ffffff"}}>Game Projects</h2>
+          <div className="grid-container">
+            <div className="glass-box">
+              <div className="glass-box-label">
+                <p style={{ margin: 0 }}>
+                  <span className="code">&lt;</span>
+                    Cube Dash Games (Unity, C#)
+                  <span className="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </div>
+          </div>
+            
+            <br/>
+          </div>
+        </section>
+      </div>  
     </>
     );
 }
