@@ -1,5 +1,7 @@
 import RechefImage from '../../public/Rechef-Image-Portofolio.png';
 import MbbImage from '../../public/MBB-Image-Portofolio.png';
+import LivinMandiriImage from '../../public/LivinMandiri-Image-Portofolio.png';
+import CGGamesImage from '../../public/CGGames-Image-Portofolio.png';
 import NutriducationImage from '../../public/Nutriducation-Image-Portofolio.png';
 import CardiOCareImage from '../../public/CardiOCare-Image-Portofolio.png';
 import KRBAIImage from '../../public/KRBAI-Image-Portofolio.png';
@@ -159,10 +161,11 @@ function Project(){
           <h2 style={{color: "#ffffff"}}>Web App Projects</h2>
           <div className="grid-container">
             <div className="glass-box">
+              <img src={CGGamesImage}/>
               <div className="glass-box-label">
                 <p style={{ margin: 0 }}>
                   <span className="code">&lt;</span>
-                    CG Games (React)
+                    CG Games (NextJS)
                   <span className="code">&#47;&gt;</span>
                 </p>
               </div>
@@ -205,7 +208,7 @@ function Project(){
             <br/>
             <br/>
             <div className="glass-box">
-              <img/>
+              <img src={LivinMandiriImage} alt="LivinMandiri"/>
               <div className="glass-box-label">
                 <p style={{ margin: 0 }}>
                   <span className="code">&lt;</span>
@@ -219,7 +222,7 @@ function Project(){
 
             <h2 style={{color: "#ffffff"}}>IOT App Projects</h2>
           <div className="grid-container">
-            <div className="glass-box">
+            <div className="glass-box" onClick={()=> (window.location.href="https://erp.monitoring-bbm.site")}>
               <img src={MbbImage} alt="MBB"/>
               <div className="glass-box-label">
                 <p style={{ margin: 0 }}>
