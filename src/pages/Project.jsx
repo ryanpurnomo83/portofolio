@@ -6,6 +6,7 @@ import NutriducationImage from '../../public/Nutriducation-Image-Portofolio.png'
 import CardiOCareImage from '../../public/CardiOCare-Image-Portofolio.png';
 import KRBAIImage from '../../public/KRBAI-Image-Portofolio.png';
 import AKMImage from '../../public/AKM-Image-Portofolio.png';
+import MFGhostGameImage from '../../public/MFGhost-Image-Portofolio.png';
 import Navbar from '../components/Navbar.jsx';
 
 function Project(){
@@ -280,10 +281,11 @@ function Project(){
           <h2 style={{color: "#ffffff"}}>Game Projects</h2>
           <div className="grid-container">
             <div className="glass-box">
+              <img src={MFGhostGameImage} alt="Rechef"/>
               <div className="glass-box-label">
                 <p style={{ margin: 0 }}>
                   <span className="code">&lt;</span>
-                    Cube Dash Games (Unity, C#)
+                    MFGhost Racing Games (Unity, C#)
                   <span className="code">&#47;&gt;</span>
                 </p>
               </div>
