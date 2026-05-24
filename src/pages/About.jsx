@@ -93,9 +93,6 @@ function About(){
             <Navbar />
             <section className="section">
                 <div className="container">
-                    <h1>Know Who I'm</h1>
-                    <p style={{textAlign: "center"}}>Hi everyone, I am Ryan Purnomo from Semarang, Indonesia. I'm an Informatics Engineering Student at Dian Nuswantoro University.</p>
-                    <p style={{textAlign: "center"}}>Beyond Academics, my experiences outside of university include : </p>
                     <br/>
                     <h1>Tech I use</h1>
                     <div className="grid-container">
@@ -169,7 +166,7 @@ function About(){
                                 <div className="glass-box-label"><p>&lt; Platform IO /&gt;</p></div>
                             </div> 
                     </div>
-
+                    <br/>
                     <h1>Tools I use</h1>
                     <div className="grid-container">
                             <div className="glass-box">

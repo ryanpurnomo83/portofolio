@@ -1,4 +1,5 @@
 import RechefImage from '../../public/Rechef-Image-Portofolio.png';
+import InvisionStudioImage from '../../public/Invision-Studio-Image-Portofolio.png';
 import MbbImage from '../../public/MBB-Image-Portofolio.png';
 import LivinMandiriImage from '../../public/LivinMandiri-Image-Portofolio.png';
 import CGGamesImage from '../../public/CGGames-Image-Portofolio.png';
@@ -178,6 +179,17 @@ function Project(){
                 <p style={{ margin: 0 }}>
                   <span className="code">&lt;</span>
                     Rechef (Django)
+                  <span className="code">&#47;&gt;</span>
+                </p>
+              </div>
+            </div>
+            <br/>
+            <div className="glass-box">
+              <img src={InvisionStudioImage} alt="Invision Studio"/>
+              <div className="glass-box-label">
+                <p style={{ margin: 0 }}>
+                  <span className="code">&lt;</span>
+                    Invision Studio (Laravel)
                   <span className="code">&#47;&gt;</span>
                 </p>
               </div>
